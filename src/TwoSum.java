@@ -25,8 +25,9 @@ public class TwoSum {
         return new int[2];
     }
     public static void main(String[] args) throws Exception {
-        int[] nums = {2, 7, 11, 15};
-        int[] result = new TwoSum().twoSum(nums, 18);
+        int[] nums = {3, 2, 4};
+        int[] result = new TwoSum().twoSum(nums, 6);
         for (int i : result)
             System.out.println(i);
-    }}
+    }
+}
