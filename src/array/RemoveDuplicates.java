@@ -24,20 +24,19 @@ import java.util.Arrays;
  */
 public class RemoveDuplicates {
     public int removeDuplicates(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
         int i = 0;
         for(int index = 0;index<nums.length;index++){
-            if(i+1==nums.length){
-                break;
-            }
-            if(nums[i]!=nums[i+1]){
+            if(nums[i]!=nums[index]){
                 i++;
-            }else {
-                System.arraycopy(nums, i+1, nums, i, nums.length - 1 - i);
+                nums[i] = nums[index];
             }
         }
         return i+1;
     }
     public static void main(String[] args) throws Exception {
-        System.out.println(new RemoveDuplicates().removeDuplicates(new int[]{0,0,1,1,1,2,2,3,3,4}));
+        System.out.println(new RemoveDuplicates().removeDuplicates(new int[]{0,0,1,3,3,4,4,5,5,5,8}));
     }
 }
