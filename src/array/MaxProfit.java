@@ -26,7 +26,7 @@ import java.util.List;
  *      注意你不能在第 1 天和第 2 天接连购买股票，之后再将它们卖出。
  *      因为这样属于同时参与了多笔交易，你必须在再次购买前出售掉之前的股票。
  */
-public class maxProfit {
+public class MaxProfit {
     public int maxProfit(int[] prices) {
         if(prices.length==1){
             return 0;
@@ -58,6 +58,6 @@ public class maxProfit {
         return sum;
     }
     public static void main(String[] args) throws Exception {
-        System.out.println(new maxProfit().maxProfit(new int[]{1,2,3,4,5}));
+        System.out.println(new MaxProfit().maxProfit(new int[]{1,2,3,4,5}));
     }
 }
