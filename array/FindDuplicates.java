@@ -36,9 +36,8 @@ public class FindDuplicates {
                     }
                     i++;
                 } else {
-                    int temp = target;
                     nums[i - 1] = nums[target - 1];
-                    nums[target - 1] = temp;
+                    nums[target - 1] = target;
                 }
             } else {
                 i++;
