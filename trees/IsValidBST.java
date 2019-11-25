@@ -1,7 +1,5 @@
 package trees;
 
-import trees.TreeNode;
-
 import java.util.LinkedList;
 
 /**
