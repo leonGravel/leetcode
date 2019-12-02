@@ -11,7 +11,7 @@ import java.util.List;
  * @Author gravel
  * @Date 2019/11/28
  * @Version V1.0
- *
+ * <p>
  * 思路：一次遍历，然后挨着运算？？？？？
  **/
 public class FizzBuzz {
@@ -20,12 +20,12 @@ public class FizzBuzz {
         int i = 1;
         while (i <= n) {
             String temp = "";
-            if (i % 3 == 0 && i % 5 != 0) {
-                temp = "Fizz";
-            } else if (i % 3 != 0 && i % 5 == 0) {
-                temp = "Buzz";
-            } else if (i % 3 == 0 && i % 5 == 0) {
+            if (i % 3 == 0 && i % 5 == 0) {
                 temp = "FizzBuzz";
+            } else if (i % 3 == 0) {
+                temp = "Fuzz";
+            } else if (i % 5 == 0) {
+                temp = "Bizz";
             } else {
                 temp = String.valueOf(i);
             }
