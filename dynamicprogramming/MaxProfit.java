@@ -10,20 +10,20 @@ package dynamicprogramming;
 public class MaxProfit {
 
     public int maxProfit(int[] prices) {
-        if(prices==null||prices.length<=1) return 0;
+        if (prices == null || prices.length <= 1) return 0;
 
         int n = 0;
         int min = prices[0];
-        int result  = 0;
-        while (n<prices.length){
-            result = Math.max(result,prices[n]-min);
-            min = Math.min(min,prices[n]);
-           n++;
+        int result = 0;
+        while (n < prices.length) {
+            result = Math.max(result, prices[n] - min);
+            min = Math.min(min, prices[n]);
+            n++;
         }
         return result;
     }
 
     public static void main(String[] args) {
-        System.out.println(new MaxProfit().maxProfit(new int[]{7,1,5,3,6,4}));
+        System.out.println(new MaxProfit().maxProfit(new int[]{7, 1, 5, 3, 6, 4}));
     }
 }
