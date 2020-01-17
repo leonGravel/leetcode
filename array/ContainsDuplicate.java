@@ -21,6 +21,8 @@ package array;
  * 输出: true
  * <p>
  * 解题思路，使用计数排序，创建一个新数组来计数
+ *
+ * 和hash表的思路差不多。
  */
 public class ContainsDuplicate {
     public boolean containsDuplicate(int[] nums) {

@@ -5,10 +5,11 @@ import java.util.Map;
 
 /**
  * @ClassName MajorityElement
- * @Description: TODO
+ * @Description: 这里题目要求找出出现次数超过n/2的元素。
  * @Author gravel
  * @Date 2019/12/10
  * @Version V1.0
+ *
  **/
 public class MajorityElement {
 

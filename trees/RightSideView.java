@@ -11,7 +11,7 @@ import java.util.List;
  * @Date 2019/12/19
  * @Version V1.0
  * 思路：
- * 宽度优先遍历，打印每一层的第一个数字
+ * 宽度优先遍历，打印每一层的第一个数字，这里如果用深度优先遍历的话，不好判断是否是该列第一个
  **/
 
 public class RightSideView {

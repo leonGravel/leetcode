@@ -11,7 +11,9 @@ import java.util.List;
  * @Date 2019/11/25
  * @Version V1.0
  *
- * 广度优先搜索，一层层下午
+ * 广度优先搜索:
+ * 定义一个队列，先把根节点放入队列，然后开始遍历，首先弹出第一层的两个节点，放入队列。这一层的有效节点数量，就是第三层的遍历次数。
+ *
  **/
 public class LevelOrder {
     public List<List<Integer>> levelOrder(TreeNode root) {

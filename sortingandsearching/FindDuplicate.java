@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * @ClassName FindDuplicate
- * @Description: TODO
+ * @Description: 找到数组中重复的元素
  * @Author gravel
  * @Date 2019/12/28
  * @Version V1.0

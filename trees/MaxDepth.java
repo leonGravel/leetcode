@@ -9,6 +9,8 @@ import java.util.LinkedList;
  * @Author gravel
  * @Date 2019/11/24
  * @Version V1.0
+ *
+ * 深度优先遍历和广度优先遍历。。不过这一题，我觉得最好还是深度优先遍历
  **/
 public class MaxDepth {
     /**
