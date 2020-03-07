@@ -1,8 +1,5 @@
 package linkedlist;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @ClassName MergeKLists
  * @Description: 合并K个有序链表，归并排序，将K个链表，两两合并
