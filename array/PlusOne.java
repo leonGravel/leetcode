@@ -28,7 +28,7 @@ public class PlusOne {
         int length = digits.length;
         if(Arrays.stream(digits).filter(e->e==9).count()==length){
             int[] newArr = new int[length + 1];
-            addOne(digits, length - 1);
+//            addOne(digits, length - 1);
             newArr[0]++;
             return newArr;
         }
