@@ -70,6 +70,15 @@ public class ReverseList {
         return list.get(0);
     }
 
+    // 打印逆序链表
+    public void printReverseList(ListNode head){
+        if(head==null){
+            return;
+        }
+        printReverseList(head.next);
+        System.out.println(head.val);
+    }
+
     public static void main(String[] args) {
         ListNode a = new ListNode(1);
         a.next = new ListNode(2);

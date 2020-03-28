@@ -32,6 +32,8 @@ package dynamicprogramming;
  * 思路：
  * 第n个台阶，可以由第n-1个台阶或者第n-2个台阶跳上去
  * 然后拆解问题，第n-1个问题，也可以继续这么拆分下去
+ * dp[n] = dp[n-1]+dp[n-2];
+ *
  **/
 public class ClimbStairs {
     public int climbStairs(int n) {
